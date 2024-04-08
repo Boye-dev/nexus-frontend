@@ -1,0 +1,29 @@
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:"relative";
+
+   width:100%;
+   
+ 
+  }
+  
+  .carousel button {
+    margin-right: 10px;
+  }
+  
+  .carousel-items {
+    width:100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+  .item{
+    width: 220px;
+  }
+  
+  
+  

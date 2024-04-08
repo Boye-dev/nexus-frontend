@@ -1,0 +1,76 @@
+:root {
+    --fc-small-font-size: .65em;
+    --fc-page-bg-color: #fff;
+    --fc-neutral-bg-color: #ED2228;
+    --fc-neutral-text-color: #808080;
+    --fc-border-color: #ddd;
+    --status-color:#ED2228;
+    --fc-button-text-color: black;
+    --fc-button-bg-color: white;
+    --fc-button-border-color: #2C3E50;
+    --fc-button-hover-bg-color: #ED2228;
+    --fc-button-hover-border-color: #1a252f;
+    --fc-button-active-bg-color: #ED2228;
+    --fc-button-active-border-color: #151e27;
+  
+    --fc-event-bg-color: white;
+    --fc-event-border-color: white;
+    --fc-event-text-color: black;
+    --fc-event-selected-overlay-color: rgba(0, 0, 0, 0.25);
+  
+    --fc-more-link-bg-color: #d0d0d0;
+    --fc-more-link-text-color: inherit;
+  
+    --fc-event-resizer-thickness: 8px;
+    --fc-event-resizer-dot-total-width: 8px;
+    --fc-event-resizer-dot-border-width: 1px;
+  
+    --fc-non-business-color: rgba(215, 215, 215, 0.3);
+    --fc-bg-event-color: rgb(143, 223, 130);
+    --fc-bg-event-opacity: 0.3;
+    --fc-highlight-color: rgba(188, 232, 241, 0.3);
+    --fc-today-bg-color: rgba(255, 220, 40, 0.15);
+    --fc-now-indicator-color: red;
+  }
+
+  .fc .fc-toolbar-title,.fc-timegrid-event .fc-event-time,.fc-v-event .fc-event-title  {
+    font-family: 'Poppins', sans-serif;
+  }
+  .fc th ,.fc .fc-timegrid-axis-cushion,.fc .fc-timegrid-slot-label-cushion ,
+  .fc .fc-daygrid-day-number,.fc-direction-ltr .fc-button-group > .fc-button:not(:last-child),
+  .fc .fc-button:not(:disabled),
+  .fc .fc-button-primary:disabled ,.fc-daygrid-block-event .fc-event-time, .fc-daygrid-block-event .fc-event-title,.fc-direction-ltr .fc-daygrid-more-link,.fc-direction-ltr .fc-daygrid-event .fc-event-time
+  ,.fc-daygrid-dot-event .fc-event-title,.fc .fc-popover-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+  }
+  .fc .fc-toolbar {
+  padding: 0 5%;
+    
+ }
+ 
+  @media (max-width:900px) {
+    .fc .fc-toolbar {
+       flex-direction: column;
+       align-items: flex-start;
+       
+    }
+    .fc .fc-toolbar-title {
+        font-size: 15px;
+    }
+  }
+  .fc-v-event .fc-event-main {
+   
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+  }
+
+  .fc-direction-rtl .fc-daygrid-event.fc-event-start,.fc-timegrid-event-harness-inset .fc-timegrid-event, .fc-timegrid-event.fc-event-mirror, .fc-timegrid-more-link,.fc .fc-daygrid-event-harness{
+    border-top:2px solid var(--status-color);
+    cursor:pointer;
+  }
+  .fc .fc-popover{
+    z-index:500;
+  }
+
+
