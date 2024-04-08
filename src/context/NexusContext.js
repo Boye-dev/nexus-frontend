@@ -7,7 +7,7 @@ import socketIOClient from "socket.io-client";
 import { Box, Typography } from "@mui/material";
 import { Message } from "@mui/icons-material";
 
-const ENDPOINT = "https://nexus-backend-mhoe.onrender.com";
+const ENDPOINT = "https://nexus-backend-n855.onrender.com";
 const NexusContext = createContext({});
 
 const NexusContextProvider = ({ children }) => {
